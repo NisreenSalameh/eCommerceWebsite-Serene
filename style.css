@@ -535,3 +535,39 @@ footer .copyright{
     width:100%;
     text-align: center;
 }
+
+
+/*-------------------------Shop Page---------------------------------------*/
+#page-header{
+    background-color: #000;
+    width:100%;
+    height:40vh;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding:14px;
+}
+
+#page-header h2,
+#page-header p{
+    color:#fff;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #932121;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color:#fff;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
