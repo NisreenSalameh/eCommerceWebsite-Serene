@@ -1063,8 +1063,6 @@ footer .copyright{
 }
 
 
-
-
 /*iPhone X*/
 @media (max-width: 477px) {
     .section-p1{
@@ -1166,7 +1164,7 @@ footer .copyright{
         width:100%;
     }
 
-    /*Contact Page*/
+/*Contact Page*/
     #contact-details{
         flex-direction: column;
     }
