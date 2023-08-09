@@ -16,3 +16,15 @@ if (close) {
         nav.classList.remove('active');
     })
 }
+
+//single product script
+document.addEventListener("DOMContentLoaded", function() {
+    const smallimg = Array.from(document.getElementsByClassName("small-img"));
+    const MainImg = document.getElementById("MainImg");
+
+    for (let i = 0; i < smallimg.length; i++) {
+        smallimg[i].onclick = function() {
+            MainImg.src = smallimg[i].src;
+        };
+    }
+});
